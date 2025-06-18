@@ -282,6 +282,9 @@
     (path "/767d6698-f655-4259-9abe-e7e551ffa83e/229bb626-f933-45d8-9454-28989c088b7b/95b5fd00-0c02-4499-a1ae-2bfd0813efed"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/767d6698-f655-4259-9abe-e7e551ffa83e/3675524f-1395-4985-ae16-252f54896ed1"
+      (reference "?") (unit 1) (value "MAX-M10S-00B") (footprint "")
+    )
     (path "/767d6698-f655-4259-9abe-e7e551ffa83e/71c96a01-a6bc-42c5-b682-3d353df0c13a/27f92fea-6664-4119-b512-502b849ab526"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
     )
