@@ -371,7 +371,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GPSComputer_3.0.kicad_pro",
+    "filename": "GPSComputer_3.2.01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,7 +455,7 @@
     ],
     [
       "71c96a01-a6bc-42c5-b682-3d353df0c13a",
-      "GPS3"
+      "GPS2"
     ],
     [
       "2004b140-001c-4f30-af08-8cd2ca7614f1",
@@ -463,7 +463,7 @@
     ],
     [
       "d0d6a25a-0c32-4261-a298-eadafa82f257",
-      "GPS2"
+      "GPS1"
     ],
     [
       "229bb626-f933-45d8-9454-28989c088b7b",
@@ -472,6 +472,10 @@
     [
       "767d6698-f655-4259-9abe-e7e551ffa83e",
       "GPS_ControlUnit"
+    ],
+    [
+      "b918f678-c1fd-4197-8585-52a694d62253",
+      "GPS3"
     ]
   ],
   "text_variables": {}
