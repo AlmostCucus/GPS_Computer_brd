@@ -44,6 +44,18 @@
     )
   )
 
+  (sheet (at 187.325 41.91) (size 59.69 37.465) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a49ad8b4-578e-412b-bdbc-483e69af8c5d)
+    (property "Sheet name" "GPS_Tracker" (id 0) (at 187.325 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "GPS_Tracker.kicad_sch" (id 1) (at 187.325 79.9596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 52.705 139.7) (size 59.055 36.195) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
