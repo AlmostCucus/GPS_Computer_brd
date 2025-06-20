@@ -1,4 +1,4 @@
-21296227419671910
+21301478602557325
 1-292227-4
 12922274
 1-292227-4-1
@@ -52800,6 +52800,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESDALC6V1-1U2
+ESDALC6V11U2
+ST0201
+TVS Diode (Uni-directional)
+0
+2
+2
 FA-128 Crystal
 FA128320000MF10ZAJ3
 FA-128 32.0000MF10Z-AJ3-3
@@ -59541,6 +59548,13 @@ Integrated Circuit
 0
 7
 7
+ML414H IV01E
+SEIKO_ML414H_IV01E
+
+
+0
+2
+2
 MMC5983MA
 MMC5983MA
 MMC5983MA-7
@@ -63454,6 +63468,13 @@ Integrated Circuit
 0
 6
 6
+PMEG4005EGWX
+SODFL2112X110N
+<b>SOD323</b><br>
+
+0
+2
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
