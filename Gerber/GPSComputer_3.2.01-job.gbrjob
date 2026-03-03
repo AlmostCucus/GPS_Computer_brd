@@ -1,0 +1,174 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.3-9.0.3-0~ubuntu22.04.1"
+    },
+    "CreationDate": "2025-10-17T13:32:11+04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "GPSComputer_3.2.01",
+      "GUID": "47505343-6f6d-4707-9574-65725f332e32",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 96.1,
+      "Y": 96.1
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6062,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.15,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "GPSComputer_3.2.01-SIGNAL1_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-GND_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-POWER_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-SIGNAL2_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "GPSComputer_3.2.01-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIGNAL1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2104,
+      "Material": "FR4",
+      "Name": "SIGNAL1.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from SIGNAL1.Cu to GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.065,
+      "Material": "FR4",
+      "Name": "GND.Cu/POWER.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to POWER.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "POWER.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2104,
+      "Material": "FR4",
+      "Name": "POWER.Cu/SIGNAL2.Cu",
+      "Notes": "Type: dielectric layer 3 (from POWER.Cu to SIGNAL2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIGNAL2.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

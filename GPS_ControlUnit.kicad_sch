@@ -1,70 +1,218 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 6e7ae36d-f1b1-49bb-85a7-e81b42f9029d)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 53.34 90.17) (size 59.055 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2004b140-001c-4f30-af08-8cd2ca7614f1)
-    (property "Sheet name" "GPS0" (id 0) (at 53.34 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "GPS0.kicad_sch" (id 1) (at 53.34 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 118.11 42.545) (size 59.055 36.83) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 229bb626-f933-45d8-9454-28989c088b7b)
-    (property "Sheet name" "MCU" (id 0) (at 118.11 41.8334 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 118.11 79.9596 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 187.325 90.17) (size 59.055 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 71c96a01-a6bc-42c5-b682-3d353df0c13a)
-    (property "Sheet name" "GPS2" (id 0) (at 187.325 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "GPS2.kicad_sch" (id 1) (at 187.325 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 52.705 139.7) (size 59.055 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid b918f678-c1fd-4197-8585-52a694d62253)
-    (property "Sheet name" "GPS3" (id 0) (at 52.705 138.9884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "GPS3.kicad_sch" (id 1) (at 52.705 176.4796 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 118.745 90.17) (size 59.055 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid d0d6a25a-0c32-4261-a298-eadafa82f257)
-    (property "Sheet name" "GPS1" (id 0) (at 118.745 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "GPS1.kicad_sch" (id 1) (at 118.745 126.9496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6e7ae36d-f1b1-49bb-85a7-e81b42f9029d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 53.34 90.17)
+		(size 59.055 36.195)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2004b140-001c-4f30-af08-8cd2ca7614f1")
+		(property "Sheetname" "GPS0"
+			(at 53.34 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS0.kicad_sch"
+			(at 53.34 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GPSComputer_3.2.01"
+				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 42.545)
+		(size 59.055 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "229bb626-f933-45d8-9454-28989c088b7b")
+		(property "Sheetname" "MCU"
+			(at 118.11 41.8334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 118.11 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GPSComputer_3.2.01"
+				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 90.17)
+		(size 59.055 36.195)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71c96a01-a6bc-42c5-b682-3d353df0c13a")
+		(property "Sheetname" "GPS2"
+			(at 187.325 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS2.kicad_sch"
+			(at 187.325 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GPSComputer_3.2.01"
+				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 139.7)
+		(size 59.055 36.195)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b918f678-c1fd-4197-8585-52a694d62253")
+		(property "Sheetname" "GPS3"
+			(at 52.705 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS3.kicad_sch"
+			(at 52.705 176.4796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GPSComputer_3.2.01"
+				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.745 90.17)
+		(size 59.055 36.195)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0d6a25a-0c32-4261-a298-eadafa82f257")
+		(property "Sheetname" "GPS1"
+			(at 118.745 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS1.kicad_sch"
+			(at 118.745 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GPSComputer_3.2.01"
+				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
+					(page "4")
+				)
+			)
+		)
+	)
 )
