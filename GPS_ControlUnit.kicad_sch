@@ -132,48 +132,6 @@
 		)
 	)
 	(sheet
-		(at 52.705 139.7)
-		(size 59.055 36.195)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b918f678-c1fd-4197-8585-52a694d62253")
-		(property "Sheetname" "GPS3"
-			(at 52.705 138.9884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "GPS3.kicad_sch"
-			(at 52.705 176.4796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "GPSComputer_3.2.01"
-				(path "/9d69a75e-9954-4afb-80a0-f983185b66f3/767d6698-f655-4259-9abe-e7e551ffa83e"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 118.745 90.17)
 		(size 59.055 36.195)
 		(exclude_from_sim no)
