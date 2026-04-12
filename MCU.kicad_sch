@@ -7289,28 +7289,6 @@
 	)
 	(global_label "GPS_MUX_UART_RX"
 		(shape input)
-		(at 350.52 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42b61822-9ed8-4e02-9f7d-818f62fb77f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.2851 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_MUX_UART_TX"
-		(shape input)
 		(at 284.48 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7319,14 +7297,36 @@
 			)
 			(justify right)
 		)
-		(uuid "445897a3-aac8-4d08-952d-dc57ef640bea")
+		(uuid "42b61822-9ed8-4e02-9f7d-818f62fb77f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.0173 93.98 0)
+			(at 263.7149 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_MUX_UART_TX"
+		(shape input)
+		(at 350.52 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445897a3-aac8-4d08-952d-dc57ef640bea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.9827 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
