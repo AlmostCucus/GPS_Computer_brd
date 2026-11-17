@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "QT532S-16.000MEEQ-T") (type "KiCad") (uri "/home/dvese/DVESE/PCB/KiCad_Libs/QT532S-16.000MEEQ-T/QT532S-16.000MEEQ-T.pretty") (options "") (descr ""))
+)

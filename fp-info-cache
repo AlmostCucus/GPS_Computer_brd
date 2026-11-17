@@ -1,4 +1,4 @@
-27174024048257592
+27390078945770541
 2SC3356
 SOT95P280X140-3N
 3-PIN MINIMOLD
@@ -13,6 +13,13 @@ Integrated Circuit
 0
 8
 8
+5051102491
+5051102491
+5051102491-1
+Connector
+0
+26
+26
 ABM11-16.000MHZ-D2X-T3
 ABM11
 ABM11
@@ -69,6 +76,13 @@ MOLEX_430451009
 0
 12
 12
+ATX_12P
+MOLEX_1720640012
+
+
+0
+12
+12
 ATX_16P_2125281600
 MOLEX_2125281600
 
@@ -104,6 +118,13 @@ SOD-123
 0
 2
 2
+BD80FD0WHFP-TR
+DPAK172P1054X200-6N
+
+
+0
+6
+6
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -472,6 +493,13 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
+0
+2
+2
+Battery_3V_MS621FE-FL11E
+BAT_MS621FE-FL11E
+
+
 0
 2
 2
@@ -2911,6 +2939,13 @@ Integrated Circuit
 0
 29
 29
+CSD18501Q5A
+CSD18501Q5A
+CSD18501Q5A-1
+MOSFET (N-Channel)
+0
+9
+9
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -59863,6 +59898,13 @@ SMC
 0
 2
 2
+Diode_ESH2PDHM3-84A
+ESH2PDHM384A
+SMP (DO-220AA)_2023
+Schottky Diode
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61921,6 +61963,20 @@ CON_5051100892_MOL
 0
 10
 10
+FFC_11P_Connector
+5051101192
+5051101192
+Connector
+0
+13
+13
+FFC_20P_Connector
+5051102091
+5051102091-1
+Connector
+0
+22
+22
 FFC_28P_Connector
 5051102891
 5051102891-1
@@ -61928,6 +61984,13 @@ Connector
 0
 30
 30
+FFC_30P_Connector
+5051103091
+5051103091-1
+Connector
+0
+32
+32
 FFC_55P_Connector
 046288055000846
 046288055000846+-2
@@ -63258,6 +63321,20 @@ Integrated Circuit
 0
 8
 8
+INA745BIRELR
+VQFN14_REL_TEX
+
+INA745BIRELR 
+0
+14
+14
+Inductor_7443640330
+7443640330B
+7443640330B-2
+Inductor
+0
+3
+3
 Inductor_78404084150
 IND_WE-LQSA-SMT_8040_WRE
 
@@ -71602,6 +71679,13 @@ XDCR_LIS3MDLTR
 0
 12
 12
+LM25116
+SOP65P640X110-21N
+PWP0020A_1
+Integrated Circuit
+0
+21
+21
 LSM6DSV320X
 LSM6DSV16BXTR
 LGA-14L 2.5 x 3.0 x 0.74 mm XDM)
@@ -71994,6 +72078,41 @@ module pcb
 0
 7
 7
+Molex_3P_2157601003
+MOLEX_2157601003
+
+
+0
+3
+3
+Molex_3P_2-1445055-3
+CONN_2-1445055-3_TYCO
+
+2-1445055-3 
+0
+4
+4
+Molex_6P_0430450612
+CONN_SD-43045-005_06_MOL
+
+430450612 
+0
+6
+6
+Molex_9P_2_1445055_9
+conn9_2-1445055-9_TEC
+
+2-1445055-9 
+0
+9
+9
+Molex_9P_0436500900
+CONN_SD-43650-001_09_MOL
+
+436500900 
+0
+9
+9
 Molex_9P_0901362109
 CONN09_901362109_MOL
 
@@ -72001,6 +72120,13 @@ CONN09_901362109_MOL
 0
 9
 9
+Molex_12P_0436501200
+MOLEX_436501200
+
+
+0
+12
+12
 Molex_12P_0534261210
 CON_534261210_MOL
 
@@ -94751,6 +94877,13 @@ SW_TL3305CF260QG
 0
 4
 4
+QPC6324TR13
+QFN50P400X400X90-21N-D
+QFN 4x4 mm .
+Integrated Circuit
+0
+21
+21
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -97026,6 +97159,13 @@ SPST SPDT DC TE0598-P2
 0
 7
 7
+Res_TLR2HWDTE6L00F75
+RESC5025X80N
+TLR2HW
+Resistor
+0
+2
+2
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -98391,6 +98531,27 @@ SOT95P240X120-3N
 0
 3
 3
+SKY65162-70LF
+SKY65162-70LF_SKY
+
+SKY65162-70LF 
+0
+3
+3
+SKY65162-70LF
+SKY65162-70LF_SKY-L
+
+SKY65162-70LF 
+0
+3
+3
+SKY65162-70LF
+SKY65162-70LF_SKY-M
+
+SKY65162-70LF 
+0
+3
+3
 SL2.1A
 SOIC127P604X185-16N
 SL2.1A SOP16_1*
@@ -98433,6 +98594,13 @@ SN74LV4052APWR
 0
 16
 16
+SN74LVC1G04DCKR
+SOT65P210X110-5N
+DCK (R-PDSO-G5)
+Integrated Circuit
+0
+5
+5
 SS12
 DIOM4427X270N
 
@@ -98497,6 +98665,13 @@ SX128x_Pinout_Board
 16
 16
 SX1280
+SZM-2166Z
+
+
+0
+40
+40
+SZM-2166Z
 SZM-2166Z
 
 
@@ -107617,6 +107792,13 @@ Varistor VF
 0
 2
 2
+XC6203P332PR-G
+XC6203P332PRG
+SOT-89_1
+Integrated Circuit
+0
+4
+4
 XL4016
 XL4016E1
 TO220-5L
@@ -107624,6 +107806,27 @@ Integrated Circuit
 0
 5
 5
+XPN12006NC
+TSON_AdvanceWF_TOS
+
+XPN12006NC_L1XHQ 
+0
+8
+8
+XPN12006NC
+TSON_AdvanceWF_TOS-L
+
+XPN12006NC_L1XHQ 
+0
+8
+8
+XPN12006NC
+TSON_AdvanceWF_TOS-M
+
+XPN12006NC_L1XHQ 
+0
+8
+8
 XT30_RightAngle
 XT30PWM
 XT30PW-M
